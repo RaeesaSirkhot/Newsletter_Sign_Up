@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@900&family=Roboto:wght@300;400;700&display=swap');
+
+.img{
+
+    justify-content: center;
+    width: 375px;
+    padding-bottom: 0;
+    
+   
+}
+*{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    background-color: white;
+   
+}
+.content_centre{
+   padding-right: 58px;
+   padding-left: 24px;
+
+}
+h5{
+    margin-top: 0;
+    font-size: 16px;
+}
+h1{
+    font-weight: bold;
+    font-size: 38px;
+    padding-left: -24px;
+    padding-bottom: 29px;
+    padding-top: 45px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.button{
+    background-color: hsl(234, 29%, 20%);
+    color: white;
+    border-radius: 6px;
+    padding: 15px 34px;
+    margin-top: 28px;
+}
+ul{
+  list-style-image: none;
+  
+    
+}
+.placeholder{
+    border-radius: 6px;
+    padding: 15px 34px;
+    width: 255px;
+    text-align: left;
+}
+#buttons{
+    margin-top:-15px;
+}
+
+body{
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 100%;
+
+}
+.wrapper{
+    width:375px;
+    height: 842px;
+    border: 0;
+    justify-content: center;
+    background-color: white;
+    padding-top: 0;
+}
+.list1{
+    list-style-image: url("icon-list.svg");
+    padding-left: 8px;
+    padding-bottom: 18px;
+    line-height: 15px;
+    font-size: 15px;
+   
+}
+.list2{
+    list-style-image: url("icon-list.svg");
+    padding-left: 8px;
+    padding-bottom: 18px;
+    line-height: 15px;
+    font-size: 15px;
+}
+.list3{
+    list-style-image: url("icon-list.svg");
+    padding-left:8px;
+    
+    line-height: 15px;
+    font-size: 15px;
+}
+.lists{
+    margin-left: -15px;
+    text-align: left;
+    padding-bottom: 46px;
+    margin-bottom: 0;
+   
+}
+p{
+    font-size: 15px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 23px;
+   
+}
+.button{
+    width: 328px;
+    margin-bottom: 0;
+}
+.box{
+    background-color: white;
+}
+
+@media only screen and (min-width:1365px){
+    .wrapper{
+        width: 881px;
+        height: 617px;
+        background-color: #36384d;
+        margin-top: 617px;
+        margin-left: 881px;
+        margin-right: 881px;
+       
+        
+    }
+    .box{
+        background-color: white;
+    }
+    *{
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        background-color: #36384d;
+       
+    }
+    body{
+        margin-left: 0px;
+        margin-top: 0px;
+        width: 100%;
+        
+    }
+   .box{
+        background-color: white;
+        width: auto;
+        border-color: white;
+
+   }
+   .img{
+
+    display: none;
+    
+   
+}
+}
