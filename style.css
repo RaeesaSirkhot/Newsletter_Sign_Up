@@ -8,6 +8,9 @@
     
    
 }
+#email-error{
+  color: red
+}
 *{
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -150,6 +153,8 @@ p{
 
     display: none;
     
-   
+   #email-error{
+     color:;
+   }
 }
 }

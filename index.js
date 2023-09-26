@@ -1,15 +1,11 @@
-function validate(){
-    var mail= document.getElementById("text").value;
-
-    var regx=/^([a-zA-Z0-9\._]+)@([a-zA-Z0-9]+.([a-z]+)(.[a-z]+)?$/
+function ValidateEmail(mail) 
+{
+ if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(myForm.emailAddr.value))
+  {
+    return (true)
+  }
+    alert("You have entered an invalid email address!")
+    return (false)
 }
 
-if(regx.text(mail)){
-    alert("Valid email required")
-    return true
-}
-else{
-    alert("Valid email required")
-    return false;
-}
 
