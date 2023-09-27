@@ -10,7 +10,8 @@
 }
 #email-error{
   color: red;
-  margin-top: 9px;
+  margin: 0;
+  text-align: right;
 }
 *{
     font-family: 'Roboto', sans-serif;
