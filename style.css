@@ -9,7 +9,8 @@
    
 }
 #email-error{
-  color: red
+  color: red;
+  margin-top: 9px;
 }
 *{
     font-family: 'Roboto', sans-serif;
@@ -153,8 +154,7 @@ p{
 
     display: none;
     
-   #email-error{
-     color:;
-   }
+
+
 }
 }
