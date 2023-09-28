@@ -36,7 +36,8 @@ h5{
     font-size: 16px;
     margin-bottom: 0;
     padding-bottom: 0;
-  
+    padding: 0;
+    float: left;
 }
 h1{
     font-weight: bold;
@@ -60,11 +61,15 @@ ul{
   
     
 }
+.heading{
+  
+}
 .placeholder{
     border-radius: 6px;
     padding: 14px 15px;
     width: 289px;
-    text-align: left;
+    float: left;
+    
 }
 #buttons{
     margin-top:-15px;
