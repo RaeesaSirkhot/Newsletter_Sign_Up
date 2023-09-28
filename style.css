@@ -133,6 +133,9 @@ p{
 .box{
     background-color: white;
 }
+.attribution{
+  text-align: center;
+}
 
 @media only screen and (min-width:1365px){
     .wrapper{
